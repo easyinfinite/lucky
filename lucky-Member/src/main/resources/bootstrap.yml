@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: book-crud-sca-provider-config11
+  cloud:
+    nacos:
+      discovery:
+        cluster-name: lucky-server1
+        server-addr: 39.98.176.130:8848

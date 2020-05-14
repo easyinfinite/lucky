@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: book-crud-sca-provider-config
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 39.98.176.130:8848
+      discovery:
+        cluster-name: lucky-server
+        server-addr: 39.98.176.130:8848
